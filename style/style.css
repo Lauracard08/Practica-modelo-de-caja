@@ -5,9 +5,16 @@ img {
   height: 200px;
   float: flex;
 }
+
+img {
+  display: block;
+  margin: auto;
+}
+
 nav ul {
   list-style: none;
 }
+
 h1 {
   display: white;
   justify-content: center;
@@ -23,14 +30,14 @@ h1 {
   margin-right: auto;
 }
 
-p,
-strong {
+p ,strong {
   text-align: center;
 }
 
 body {
   font: 24px Helvetica;
 }
+
 #main {
   min-height: 800px;
   margin: 0px;
@@ -38,6 +45,7 @@ body {
   display: flex;
   flex-flow: row;
 }
+
 #main article {
   margin: 4px;
   padding: 5px;
@@ -68,16 +76,18 @@ body {
   flex: 1 6 25%;
   order: 1;
 }
+
 #main .cuadro p {
   width: 300px;
   height: 300px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   padding: 12px;
-  float: center;
   text-align: center;
-  justify-content: center;
+  display: block;
+  margin: auto;
 }
+
 h2 {
   padding: 15px;
   margin: 0px;
